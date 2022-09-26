@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/10aff87caa.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .left{
+            /*border: 2px solid black;*/
+            width: 120px;
+            margin-top:10px;
+            margin-left: 15px;
+            position: sticky;
+        
+            
+
+        }
+        
+        
+        .right{
+            position: absolute;
+            top:18px;
+            right:60px;
+        }
+        .right li{
+            float: left;
+            list-style: none;
+            padding:0px 12px;
+            font-size: 20px;
+        }
+    .right a {
+        text-decoration: none;
+        color: black;
+    }
+    .right a:hover{
+                color:green;
+                
+                
+                
+
+    }
+    .middle
+    {
+        display: flex;
+        flex-direction: row;
+    }
+   .main
+   {
+    
+    width: 350px;
+    margin: 95px 165px;
+
+    display: inline-flex;
+    flex-direction: column;
+   }
+   .main h2 {
+    margin-top:10px;
+    font-size: 28px;
+    color:brown;
+   }
+   .main p{
+    margin-top: 6px;
+    font-size: 18px;
+    color:goldenrod;
+   }
+   .twomain{
+    margin-top:11px;
+    display: inline-block;
+    width: 75%;
+    padding-left:20px
+
+   }
+   .twomain i{
+    padding-left: 15px;
+   }
+   .btn
+   {
+    margin: 15px;
+    width:35%;
+    height: 35px;
+    background-color:purple;
+    color:white;
+    border: 0.1px solid wheat;
+    border-radius: 5px ;
+    cursor: pointer
+    
+   }
+   .btn:hover{
+    background-color: goldenrod;
+    scale:.98
+   }
+   .container
+   {
+    margin:2px;
+   
+
+}
+.third
+{
+    margin-top: 30px;
+    margin-left: 225px;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.container h2
+{
+    margin: 10px auto;
+    width:50%;
+    
+
+    
+    text-align: center;
+    display: block;
+}
+.content
+{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.html
+{
+    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    border: 1px solid gray;
+}
+.wordpress
+{
+    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 400px;
+    height: 400px;
+    background-color: #fafafa;
+}
+.css
+{
+    
+    width: 400px;
+    border: 1px solid gray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+.but1
+{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    
+}
+.but2
+{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    
+}
+.but3
+{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    
+}
+.html p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    width: 85%;
+    
+}
+.wordpress p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    width: 85%;
+    
+}
+   
+.css p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    width: 85%;
+    
+}
+.but1:hover{
+    background-color: wheat;
+    scale:0.98
+}
+.but2:hover{
+    background-color: wheat;
+    scale:0.98
+}
+   
+.but3:hover{
+    background-color: wheat;
+    scale:0.98
+}
+ .foot
+ {
+    background-color: black;
+    margin-top: 10px;
+    height: 50px;
+    color: pink;
+    font-size: 18px;
+    
+ }  
+ .foot p{
+    margin-top: 10px;
+    padding-top: 12px;
+    margin: auto;
+    display: block;
+    width: 25%;
+    
+ }
+   
+
+   
+   
+   
+    
+    
+    </style>
+</head>
+<body>
+   <div class="left">
+     
+    <h1 style="color:red">Portfolio</h1>
+
+   </div> 
+
+  
+   <div class="right">
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">Contact Me</a></li>
+     <li><a href="#">Skills</a></li> 
+     <li><a href="#">Experience</a></li>
+     <li><a href="#">Services</a></li>  
+    </ul>
+   </div>
+   
+   <div class="middle">
+  <div class="main">
+   <p><b>HELLO</b></p>
+   <h2 style="color:black"><b>I M PRAKRITI LIMBU</b></h2> 
+   <p> Cyber Security Analyst and Software developer</p>
+   <div class="twomain">
+   <a href="https://www.facebook.com/prakriti.limbu.1272"><i class="fa-brands fa-facebook" style="color: blue;"></a></i>
+   <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: red;"></a></i>
+   <a href="https://www.google.com/webhp?authuser=1"><i class="fa-brands fa-google" style="color: orange;"></a></i>
+   <a href="https://github.com/prakriti0"><i class="fa-brands fa-github" style="color: brown;"></a></i>
+   </div>
+   <button class="btn">MY PROJECTS</button>
+  </div> 
+  <div class="third">
+<img src="prakriti.jpg" height="325px" width="300px"> 
+</div>
+ </div>  
+ <div class="container">
+ <h2 style="color:red"c>Recommended Courses</h2>   
+
+ <div class="content">
+ <div class="html">
+  <img src="python.jpg" width="395" height="295">
+  <p style="color:green">Complete  Python Course by:Prakriti Limbu.Start learning from scratch in Nepali </p>
+  <button class="but1">Join Now</button>
+
+
+ </div>
+ <div class="wordpress">
+    <img src="dart.png" width="395" height="295">  
+    <p style="color: green;">Complete Dart Course by:Prakriti Limbu.Start learning from scratch in Nepali</p>  
+    <button class="but2">Join Now</button>
+
+ </div>
+ <div class="css">
+    <img src="java.jpg" width="395" height="295">
+    <p style="color:green">Complete  java Course by:Prakriti Limbu.Start learning from scratch in Nepali</p>
+    <button class="but3">Join Now</button>
+
+ </div>
+
+ </div>
+
+ </div>
+  
+ <footer class="foot">
+    <p>Copyright &copy;  Prakriti Limbu 2022</p>
+ </footer> 
+
+
+
+   
+  
+
+   
+    
+</body>
+</html> 
